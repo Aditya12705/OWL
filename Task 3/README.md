@@ -55,7 +55,7 @@ This project is built with a modern, full-stack architecture.
 
 Check out the live demo of the application to see it in action:
 
-🔗 [https://owlinternship.netlify.app/](https://owlinship.netlify.app/)
+🔗 [https://owlinternship.netlify.app/](https://owlinternship.netlify.app/)
 
 Explore the platform, view available internships and projects, and experience the user interface firsthand. The demo is connected to a live backend, so you can test the complete application flow including user registration, application submission, and more.
 - **ODM**: PyMongo
