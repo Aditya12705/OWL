@@ -1,0 +1,190 @@
+.course-main {
+    padding: 6rem 8%;
+}
+
+.course-hero {
+    text-align: center;
+    max-width: 800px;
+    margin: 4rem auto 4rem;
+}
+
+.course-hero h1 {
+    color: var(--lightest-slate);
+    font-size: 2.5rem;
+}
+
+.course-hero p {
+    color: var(--accent-color);
+    font-size: 1.1rem;
+}
+
+.course-layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.course-details h2 {
+    color: var(--lightest-slate);
+    border-left: 3px solid var(--accent-color);
+    padding-left: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.course-details ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.course-details ul li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 1rem;
+}
+
+.course-details ul li::before {
+    content: '▹';
+    position: absolute;
+    left: 0;
+    color: var(--accent-color);
+}
+
+.tools-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.tools-grid span {
+    background-color: var(--light-navy);
+    color: var(--light-slate);
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: 0.9rem;
+}
+
+.registration-form {
+    background-color: var(--navy);
+    padding: 2rem;
+    border-radius: 5px;
+    position: sticky;
+    top: 120px;
+}
+
+.registration-form h3 {
+    color: var(--lightest-slate);
+    margin-top: 0;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    color: var(--slate);
+    margin-bottom: 0.5rem;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--dark-navy);
+    border: 1px solid var(--light-navy);
+    border-radius: 4px;
+    color: var(--lightest-slate);
+    box-sizing: border-box;
+}
+.form-group input:focus {
+    outline: none;
+    border-color: var(--accent-color);
+}
+
+.form-confirmation {
+    text-align: center;
+    padding: 3rem 1rem;
+    animation: fadeIn 0.5s;
+}
+
+.form-confirmation h3 {
+    color: var(--accent-color);
+    font-size: 1.8rem;
+}
+
+.form-confirmation p {
+    color: var(--lightest-slate);
+    font-size: 1.1rem;
+}
+
+.custom-select-wrapper {
+    position: relative;
+}
+
+.custom-select-wrapper select {
+    display: none;
+}
+
+.select-selected {
+    background-color: var(--dark-navy);
+    border: 1px solid var(--light-navy);
+    border-radius: 4px;
+    padding: 12px 16px;
+    color: var(--light-slate);
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+    transition: border-color 0.2s;
+}
+
+.select-selected:hover {
+    border-color: var(--accent-color);
+}
+
+.select-selected::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid var(--slate);
+    transition: all 0.3s;
+}
+
+.select-selected.select-arrow-active::after {
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.select-items {
+    position: absolute;
+    background-color: var(--light-navy);
+    top: 110%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-radius: 4px;
+    border: 1px solid var(--light-navy);
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.select-hide {
+    display: none;
+}
+
+.select-items div {
+    color: var(--light-slate);
+    padding: 12px 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.select-items div:hover, .same-as-selected {
+    background-color: rgba(100, 255, 218, 0.1);
+}
