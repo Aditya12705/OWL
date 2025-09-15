@@ -43,17 +43,13 @@ A comprehensive MERN-like (MongoDB, Express, React, Node.js-style Python/Flask) 
 
 - **Frontend:** HTML5, CSS3, JavaScript, React.js
 - **Backend:** Python (Flask)
-- **Database:** MongoDB
-- **Deployment:** (To be added)
+- **Database:** MongoDB Atlas
+- **Deployment:** Render, Vercel
 
 ## 📝 How to Run
 
 Each task has its own setup instructions. Please refer to the individual README files in each task's directory for specific setup and running instructions.
 
-## 📄 License
-
-This project is part of the Owl AI internship application process. All rights reserved.
-
 ## ✉️ Contact
 
-For any inquiries, please contact [Your Email]
+For any inquiries, please contact aditya.banerjee12705@gmail.com
