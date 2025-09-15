@@ -33,7 +33,9 @@ A picture is worth a thousand words. Here's a glimpse into the Owl AI platform.
 ### User Dashboard
 Shows available internships and projects, along with the user's application status.
 
-<img width="1884" height="841" alt="Screenshot 2025-09-15 122445" src="https://github.com/user-attachments/assets/56097bdb-8b47-4c9d-94f9-d38e091640fa" />
+<img width="1884" height="851" alt="Screenshot 2025-09-15 122424" src="https://github.com/user-attachments/assets/fd4e6d40-aeb1-4917-8fb2-37bd0cbed102" />
+<img width="1877" height="836" alt="Screenshot 2025-09-15 122433" src="https://github.com/user-attachments/assets/c3c56b6b-ec31-4858-a1b4-b9cecd9eb7ce" />
+<img width="1884" height="841" alt="Screenshot 2025-09-15 122445" src="https://github.com/user-attachments/assets/49457008-2cc8-44fe-86b9-933928b98f27" />
 
 
 ### Admin Dashboard
