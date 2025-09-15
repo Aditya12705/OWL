@@ -41,6 +41,8 @@ Shows available internships and projects, along with the user's application stat
 ### Admin Dashboard
 The central control panel for managing projects, internships, users, and applications.
 
+<img width="1886" height="854" alt="image" src="https://github.com/user-attachments/assets/72b0a952-2325-43b2-af84-f3d29c4f3c6c" />
+
 ## 🛠️ Tech Stack
 
 This project is built with a modern, full-stack architecture.
@@ -152,13 +154,3 @@ The backend provides the following RESTful API endpoints:
 | POST   | /api/apply_internship | Apply for an internship. | Yes | No |
 | PUT    | /api/project_applications/<id>/status | Update the status of a project application. | Yes | Yes |
 | PUT    | /api/project_applications/<id>/submission | Submit work for a project application. | Yes | No |
-
-## 🌟 Future Improvements
-
-This platform has a strong foundation, but there's always room to grow! Here are some potential features for the future:
-
-- **Email Notifications**: Send automated emails to users when their application status changes.
-- **Advanced Filtering**: Allow users to filter projects and internships by tech stack, duration, or keywords.
-- **User Profile Page**: A dedicated page where users can view and edit their profile information.
-- **Rich Text Editors**: Implement a WYSIWYG editor for admins when creating detailed descriptions and guides.
-- **Deployment**: Add scripts and instructions for deploying the application to services like Vercel (frontend) and Heroku (backend).
