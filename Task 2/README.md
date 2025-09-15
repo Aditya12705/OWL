@@ -4,8 +4,7 @@ This repository contains the source code for a dynamic, multi-page website creat
 
 ## ✨ Live Demo
 
-You can view the live version of the website here: https://your-github-username.github.io/your-repository-name/
-*(Note: Replace the placeholder link above with your actual GitHub Pages URL after deployment.)*
+You can view the live version of the website here: 🔗 [https://aditya12705.github.io/OWL-Task2/](https://aditya12705.github.io/OWL-Task2/)
 
 ## 🚀 Features
 
@@ -21,6 +20,13 @@ This project is built with a focus on modern UI/UX principles and includes a var
 - **Interactive Course Registration Forms**: Each course page includes a registration form that provides instant front-end confirmation upon submission, simulating a real user enrollment flow.
 - **Custom-Styled Form Elements**: Includes a custom-designed dropdown menu that matches the website's theme for a consistent user experience.
 - **Non-Responsive Desktop Layout**: The website is intentionally designed with a fixed viewport to maintain the exact desktop layout on mobile devices, as requested.
+
+## 📸 Screenshots
+
+<img width="1880" height="854" alt="image" src="https://github.com/user-attachments/assets/2e566692-c208-4de5-9f1c-be4db7e159eb" />
+<img width="1891" height="865" alt="image" src="https://github.com/user-attachments/assets/2501eb23-8357-4582-91ef-310288e3a8f8" />
+<img width="1890" height="857" alt="image" src="https://github.com/user-attachments/assets/18cb962b-7623-4599-b4b5-a28d0e84b398" />
+
 
 ## 🛠️ Technologies Used
 
